@@ -1,0 +1,14 @@
+tcg_importer.import:
+  path: '/admin/tcg-importer'
+  defaults:
+    _controller: '\Drupal\tcg_importer\Controller\TcgImporterController::index'
+  requirements:
+    _permission: 'administer site configuration'
+
+tcg_importer.progress_chunk:
+  path: '/admin/tcg-importer/process'
+  defaults:
+    _controller: '\Drupal\tcg_importer\Controller\TcgImporterController::processChunk'
+  requirements:
+    _permission: 'administer site configuration'
+  methods: [POST]

@@ -1,0 +1,6 @@
+importer_ui:
+  js:
+    js/importer.js: {}
+  dependencies:
+    - core/drupal
+    - core/once

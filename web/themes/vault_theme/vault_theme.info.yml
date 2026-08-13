@@ -1,0 +1,20 @@
+name: vault_theme
+type: theme
+base theme: starterkit_theme
+description: Lotr and other TCG marketplace
+package: Custom
+core_version_requirement: ^10 || ^11
+libraries:
+  - vault_theme/global-styling
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'

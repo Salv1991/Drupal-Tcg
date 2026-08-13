@@ -1,0 +1,3 @@
+colima start (launches container)
+
+ddev launch

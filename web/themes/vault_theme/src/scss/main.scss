@@ -1,0 +1,36 @@
+// 2026 TCG Theme Variables
+$ring-gold: #ffcc33;
+$mordor-dark: #121212;
+$card-bg: #1e1e1e;
+$elven-silver: #e0e0e0;
+
+* {
+  background-color: black !important;
+}
+body {
+  background-color: $mordor-dark;
+  color: $elven-silver;
+  font-family: 'Cinzel', serif; // A classic LOTR-style font
+  margin: 0;
+  padding: 20px;
+}
+
+// Style for your Card Listings
+.card-product-teaser {
+  background: $card-bg;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    border-color: $ring-gold;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba($ring-gold, 0.2);
+  }
+
+  .card-title {
+    color: $ring-gold;
+    font-size: 1.2rem;
+  }
+}

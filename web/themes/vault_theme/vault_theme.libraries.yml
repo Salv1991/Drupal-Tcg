@@ -1,0 +1,11 @@
+global-styling:
+  vite: true # <--- THIS IS THE MAGIC KEY
+  css:
+    theme:
+      src/scss/main.scss: {}
+  js:
+    src/js/main.js: { attributes: { type: module } }
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/js-cookie

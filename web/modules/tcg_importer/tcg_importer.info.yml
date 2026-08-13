@@ -1,0 +1,7 @@
+name: 'TCG importer'
+type: module
+description: 'Imports TCG cards from json'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - commerce_product:commerce_product

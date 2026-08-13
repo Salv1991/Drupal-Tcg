@@ -1,0 +1,29 @@
+# Drupal Core, Vendor & Contrib Packages (διαχειρίζονται μέσω Composer)
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Αρχεία χρηστών (Εικόνες, Uploads, Cache)
+/web/sites/*/files/
+/web/sites/*/private/
+
+# Τοπικές Ρυθμίσεις & DDEV
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+/.ddev/
+/.env
+
+# TCG Importer - Αποκλεισμός των JSON δεδομένων
+/web/modules/tcg_importer/data/
+/web/modules/custom/tcg_importer/data/
+
+# Αρχεία συστήματος / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Node dependencies
+node_modules/
