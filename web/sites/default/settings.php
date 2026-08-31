@@ -907,3 +907,4 @@ if (getenv('IS_DDEV_PROJECT') == 'true' && file_exists(__DIR__ . '/settings.ddev
  */
 $config['vite.settings']['dev_server_url'] = 'http://localhost:5173';
 $config['vite.settings']['use_dev_server'] = TRUE;
+$settings['file_private_path'] = dirname(DRUPAL_ROOT) . '/private';

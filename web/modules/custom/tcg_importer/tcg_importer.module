@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for TCG importer module.
+ */
+// var_dump(class_exists('\Drupal\tcg_importer\Services\TcgImporterService'));
+// die();

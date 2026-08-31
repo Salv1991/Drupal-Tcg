@@ -1,0 +1,5 @@
+tcg_importer.admin_menu:
+  title: 'TCG Importer'
+  description: 'Εισαγωγή καρτών TCG via Batch API.'
+  route_name: tcg_importer.admin_form
+  parent: system.admin_config_development

@@ -1,0 +1,35 @@
+{
+  "object": "list",
+  "total_cards": 8000,
+  "has_more": true,
+  "next_page": "https:\/\/api.scryfall.com\/cards\/search?format=json&include_extras=false&include_multilingual=false&include_variations=false&order=name&page=2&q=s%3Altr&unique=cards",
+  "data" : [
+    {
+      "object": "card",
+      "id": "mock-uuid-000911",
+      "name": "And\u00faril, Flame of the West (Copy #911)",
+      "lang": "en",
+      "released_at": "2023-06-23",
+      "highres_image": true,
+      "image_uris": [],
+      "cmc": 3,
+      "type_line": "Legendary Artifact \u2014 Equipment",
+      "oracle_text": "Equipped creature gets +3\/+1...",
+      "color_identity": [
+          "G",
+          "W"
+      ],
+      "mana_cost": "{1}{G}{W}",
+      "flavor_text": "This is a flavor text for testing purposes. ",
+      "finishes": [
+          "nonfoil",
+          "foil"
+      ],
+      "rarity": "mythic",
+      "prices": {
+          "usd": "6.95",
+          "usd_foil": "6.55"
+      }
+    }
+  ]
+}

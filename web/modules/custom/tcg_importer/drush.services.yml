@@ -1,0 +1,6 @@
+services:
+  tcg_importer.commands:
+    class: Drupal\tcg_importer\Commands\TcgImporterCommands
+    arguments: ['@tcg_importer.importer']
+    tags:
+      - { name: drush.command }

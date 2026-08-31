@@ -1,0 +1,7 @@
+tcg_importer.admin_form:
+  path: '/admin/tcg-importer'
+  defaults:
+    _form: '\Drupal\tcg_importer\Form\TcgImporterForm'
+    _title: 'TCG Card Importer'
+  requirements:
+    _permission: 'administer site configuration'
